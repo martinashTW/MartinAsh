@@ -1,0 +1,146 @@
+<html>
+<head>
+<script src="https://raw.githubusercontent.com/CRMDoc/TechWriterTechnicalExercise/master/main.js">
+</script>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "myStyle.css" />
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: grey;
+  padding: 25px;
+  font-size: 20px;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+fieldset {
+    position: float;
+    background-color: #f5f5f5;
+    width: 400px;
+    margin:auto;
+    border-radius: 9px;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  margin-left: 100px;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid grey;
+  width: 100%;
+}
+.latin td {
+  font-family: Roboto, sans-serif;
+  border-collapse: collapse;
+  border: 1px, grey;
+  width: 100%;
+}
+td:hover {background-color:#f5f5f5;}
+.button1:hover {
+  background-color: #f8991d;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/CRMDoc/TechWriterTechnicalExercise/master/Resources/jellyfish.jpg");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+<main style='z-index: 50;margin-top:8px;'>
+<link rel="stylesheet" href="style.css">
+</style>
+</head>
+  <body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px" align = "center">Hello!</h1>
+  </div>
+</div>
+<div class="sticky", align = "left">This is a Test Site</div>
+<div class="sticky", align = "center">This is normally hidden!
+</div>
+</div>
+    <div class="banner">
+    </div>
+      <h2>Below are the References</h2> 
+    <div id="content" class="left">
+     <ul>
+        <li>This is a link to the jellyfish image <a 
+     href="https://raw.githubusercontent.com/CRMDoc/TechWriterTechnicalExercise/master/Resources/jellyfish.jpg">
+     <p> Jelly Fish</a>
+          <li>Click the button below to open the Veeva homepage:
+    </div>
+    <p>
+<button class="button button1" onclick=" window.open('https://www.veeva.com','_blank')"> Click Here</button>
+   </p>
+<h2>Form for Picklist</h2>
+    <form>
+   <fieldset>
+<div>
+  <input type="checkbox" id="Inventory Monitoring" name="Inventory Monitoring" checked>
+  <label for="">Inventory Monitoring</label>
+</div>
+<div>
+  <input type="checkbox" id="Order Management" name="Order Managements">
+  <label for="Order Management">Order Management</label>
+</div>
+<div>
+  <input type="checkbox" id="MyInsight" name="MyInsight" checked>
+  <label for="">MyInsight</label>
+</div>
+<p>Select the button below to enter: 
+ 
+<p>Enter any required text below:</p>
+  <textarea> 
+  </textarea>
+<p>
+ <div>
+<button class="button button2" onclick="alert('Hi Denice')">Submit</button>
+  </div>
+      </fieldset>
+    </form>
+<h2>Latin Text Area</h2>
+<table id="latin">
+   <tr>
+      <td>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies libero eget justo placerat consequat. Fusce ipsum orci, interdum eu semper at, dignissim sed augue. Curabitur gravida neque justo, a bibendum leo tincidunt a. Nullam cursus erat nec est tristique posuere. Donec urna magna, placerat in nulla a, vehicula elementum mi. Mauris faucibus finibus mauris, nec venenatis arcu rhoncus ac. Phasellus erat nulla, aliquam a enim nec, malesuada blandit dui.Suspendisse laoreet nibh tempor ornare posuere. Integer quis lectus tincidunt, ullamcorper mauris nec, vulputate diam. In vehicula vehicula mauris at vulputate. Vestibulum sodales, arcu in pharetra dignissim, orci ipsum fermentum lorem, sit amet accumsan sapien elit quis ipsum. Vivamus condimentum, enim ut laoreet gravida, purus enim fringilla nunc, porta ultrices ex tellus ac libero. In dignissim libero odio, ut tincidunt nunc sodales quis. Nam commodo nisi id ultricies auctor. Vivamus varius sem sed tortor ornare sagittis. In viverra non lorem eu eleifend. Pellentesque mi libero, euismod ac nisi in, pellentesque posuere neque. Cras at porttitor enim, et eleifend erat. Aliquam erat volutpat. Vivamus sapien ligula, varius sit amet faucibus at, maximus in ipsum. Nunc quis tempor justo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur nunc molestie consequat semper. Duis elementum, lacus vitae porta egestas, tortor augue vehicula nisi, sed lacinia risus augue eu orci. Donec vulputate bibendum dolor, nec porta nisl bibendum nec. Sed consequat mauris magna. Nam tristique sagittis diam id laoreet. Mauris auctor faucibus lorem, eleifend iaculis magna tristique vel. Morbi vestibulum pulvinar pulvinar. Sed id libero ante. Nunc vehicula id velit sit amet viverra. Morbi faucibus libero eu ipsum dapibus, eget accumsan nisi mollis. Donec sagittis hendrerit odio, sit amet efficitur nibh tincidunt viverra. Donec egestas pharetra lacus, eu vulputate ex blandit et. Aenean leo est, molestie eu commodo eget, accumsan et mauris. dictum, diam venenatis semper rhoncus, tellus nisl mollis purus, hendrerit auctor eros nisl et nibh. Donec ultrices libero eros, sit amet tincidunt lectus maximus nec. Donec convallis velit ornare lacus volutpat, bibendum imperdiet purus euismod. Fusce aliquam scelerisque aliquam. Praesent condimentum nisl risus, eget iaculis metus aliquet at. Aliquam elementum tincidunt magna vitae porta. Vestibulum pellentesque eros tortor, vitae eleifend enim gravida sit amet. Cras mattis tortor sed euismod lacinia. Proin efficitur, felis ac rutrum vestibulum, augue lorem fringilla magna, ut pharetra magna sem eget orci. Ut metus nibh, consectetur at metus sed, facilisis mattis est.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur nunc molestie consequat semper. Duis elementum, lacus vitae porta egestas, tortor augue vehicula nisi, sed lacinia risus augue eu orci. Donec vulputate bibendum dolor, nec porta nisl bibendum nec. Sed consequat mauris magna. Nam tristique sagittis diam id laoreet. Mauris auctor faucibus lorem, eleifend iaculis magna tristique vel. Morbi vestibulum pulvinar pulvinar. Sed id libero ante. Nunc vehicula id velit sit amet viverra. Morbi faucibus libero eu ipsum dapibus, eget accumsan nisi mollis. Donec sagittis hendrerit odio, sit amet efficitur nibh tincidunt viverra. Donec egestas pharetra lacus, eu vulputate ex blandit et. Aenean leo est, molestie eu commodo eget, accumsan et mauris. Ut dictum, diam venenatis semper rhoncus, tellus nisl mollis purus, hendrerit auctor eros nisl et nibh. Donec ultrices libero eros, sit amet tincidunt lectus maximus nec. Donec convallis velit ornare lacus volutpat, bibendum imperdiet purus euismod. Fusce aliquam scelerisque aliquam. Praesent condimentum nisl risus, eget iaculis metus aliquet at. Aliquam elementum tincidunt magna vitae porta. Vestibulum pellentesque eros tortor, vitae eleifend enim gravida sit amet. Cras mattis tortor sed euismod lacinia. Proin efficitur, felis ac rutrum vestibulum, augue lorem fringilla magna, ut pharetra magna sem eget orci. Ut metus nibh, consectetur at metus sed, facilisis mattis est. Cras quis elit erat. Curabitur nisl lacus, tempor in bibendum sit amet, posuere non velit. Suspendisse at tellus blandit enim euismod molestie. Aenean et aliquet augue. Nunc ultrices neque sed mi laoreet hendrerit. Donec consectetur scelerisque turpis nec scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed consequat nulla sapien. Ut rhoncus vestibulum nunc vel consequat. Ut eros ipsum, fringilla ac metus vel, consectetur luctus nunc. Integer lobortis ipsum sollicitudin ex blandit, eget sollicitudin nibh pharetra. Praesent mollis nulla eu pharetra posuere. Maecenas pellentesque facilisis augue in mattis. Suspendisse varius dictum congue. Integer quis sollicitudin enim, a egestas purus. Aenean velit velit, fringilla et mollis sit amet, vehicula non mi.</p>  
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies libero eget justo placerat consequat. Fusce ipsum orci, interdum eu semper at, dignissim sed augue. Curabitur gravida neque justo, a bibendum leo tincidunt a. Nullam cursus erat nec est tristique posuere. Donec urna magna, placerat in nulla a, vehicula elementum mi. Mauris faucibus finibus mauris, nec venenatis arcu rhoncus ac. Phasellus erat nulla, aliquam a enim nec, malesuada blandit dui. Suspendisse laoreet nibh tempor ornare posuere. Integer quis lectus tincidunt, ullamcorper mauris nec, vulputate diam. In vehicula vehicula mauris at vulputate. Vestibulum sodales, arcu in pharetra dignissim, orci ipsum fermentum lorem, sit amet accumsan sapien elit quis ipsum. Vivamus condimentum, enim ut laoreet gravida, purus enim fringilla nunc, porta ultrices ex tellus ac libero. In dignissim libero odio, ut tincidunt nunc sodales quis. Nam commodo nisi id ultricies auctor. Vivamus varius sem sed tortor ornare sagittis. In viverra non lorem eu eleifend. Pellentesque mi libero, euismod ac nisi in, pellentesque posuere neque. Cras at porttitor enim, et eleifend erat. Aliquam erat volutpat. Vivamus sapien ligula, varius sit amet faucibus at, maximus in ipsum. Nunc quis tempor justo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies libero eget justo placerat consequat. Fusce ipsum orci, interdum eu semper at, dignissim sed augue. Curabitur gravida neque justo, a bibendum leo tincidunt a. Nullam cursus erat nec est tristique posuere. Donec urna magna, placerat in nulla a, vehicula elementum mi. Mauris faucibus finibus mauris, nec venenatis arcu rhoncus ac. Phasellus erat nulla, aliquam a enim nec, malesuada blandit dui. Suspendisse laoreet nibh tempor ornare posuere. Integer quis lectus tincidunt, ullamcorper mauris nec, vulputate diam. In vehicula vehicula mauris at vulputate. Vestibulum sodales, arcu in pharetra dignissim, orci ipsum fermentum lorem, sit amet accumsan sapien elit quis ipsum. Vivamus condimentum, enim ut laoreet gravida, purus enim fringilla nunc, porta ultrices ex tellus ac libero. In dignissim libero odio, ut tincidunt nunc sodales quis. Nam commodo nisi id ultricies auctor. Vivamus varius sem sed tortor ornare sagittis. In viverra non lorem eu eleifend. Pellentesque mi libero, euismod ac nisi in, pellentesque posuere neque. Cras at porttitor enim, et eleifend erat. Aliquam erat volutpat. Vivamus sapien ligula, varius sit amet faucibus at, maximus in ipsum. Nunc quis tempor justo.</p>
+</td>
+<td onclick=" window.open('https://www.veeva.com','_blank')"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies libero eget justo placerat consequat. Fusce ipsum orci, interdum eu semper at, dignissim sed augue. Curabitur gravida neque justo, a bibendum leo tincidunt a. Nullam cursus erat nec est tristique posuere. Donec urna magna, placerat in nulla a, vehicula elementum mi. Mauris faucibus finibus mauris, nec venenatis arcu rhoncus ac. Phasellus erat nulla, aliquam a enim nec, malesuada blandit dui. Suspendisse laoreet nibh tempor ornare posuere. Integer quis lectus tincidunt, ullamcorper mauris nec, vulputate diam. In vehicula vehicula mauris at vulputate. Vestibulum sodales, arcu in pharetra dignissim, orci ipsum fermentum lorem, sit amet accumsan sapien elit quis ipsum. Vivamus condimentum, enim ut laoreet gravida, purus enim fringilla nunc, porta ultrices ex tellus ac libero. In dignissim libero odio, ut tincidunt nunc sodales quis. Nam commodo nisi id ultricies auctor. Vivamus varius sem sed tortor ornare sagittis. In viverra non lorem eu eleifend. Pellentesque mi libero, euismod ac nisi in, pellentesque posuere neque. Cras at porttitor enim, et eleifend erat. Aliquam erat volutpat. Vivamus sapien ligula, varius sit amet faucibus at, maximus in ipsum. Nunc quis tempor justo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies libero eget justo placerat consequat. Fusce ipsum orci, interdum eu semper at, dignissim sed augue. Curabitur gravida neque justo, a bibendum leo tincidunt a. Nullam cursus erat nec est tristique posuere. Donec urna magna, placerat in nulla a, vehicula elementum mi. Mauris faucibus finibus mauris, nec venenatis arcu rhoncus ac. Phasellus erat nulla, aliquam a enim nec, malesuada blandit dui. Suspendisse laoreet nibh tempor ornare posuere. Integer quis lectus tincidunt, ullamcorper mauris nec, vulputate diam. In vehicula vehicula mauris at vulputate. Vestibulum sodales, arcu in pharetra dignissim, orci ipsum fermentum lorem, sit amet accumsan sapien elit quis ipsum. Vivamus condimentum, enim ut laoreet gravida, purus enim fringilla nunc, porta ultrices ex tellus ac libero. In dignissim libero odio, ut tincidunt nunc sodales quis. Nam commodo nisi id ultricies auctor. Vivamus varius sem sed tortor ornare sagittis. In viverra non lorem eu eleifend. Pellentesque mi libero, euismod ac nisi in, pellentesque posuere neque. Cras at porttitor enim, et eleifend erat. Aliquam erat volutpat. Vivamus sapien ligula, varius sit amet faucibus at, maximus in ipsum. Nunc quis tempor justo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies libero eget justo placerat consequat. Fusce ipsum orci, interdum eu semper at, dignissim sed augue. Curabitur gravida neque justo, a bibendum leo tincidunt a. Nullam cursus erat nec est tristique posuere. Donec urna magna, placerat in nulla a, vehicula elementum mi. Mauris faucibus finibus mauris, nec venenatis arcu rhoncus ac. Phasellus erat nulla, aliquam a enim nec, malesuada blandit dui. Suspendisse laoreet nibh tempor ornare posuere. Integer quis lectus tincidunt, ullamcorper mauris nec, vulputate diam. In vehicula vehicula mauris at vulputate. Vestibulum sodales, arcu in pharetra dignissim, orci ipsum fermentum lorem, sit amet accumsan sapien elit quis ipsum. Vivamus condimentum, enim ut laoreet gravida, purus enim fringilla nunc, porta ultrices ex tellus ac libero. In dignissim libero odio, ut tincidunt nunc sodales quis. Nam commodo nisi id ultricies auctor. Vivamus varius sem sed tortor ornare sagittis. In viverra non lorem eu eleifend. Pellentesque mi libero, euismod ac nisi in, pellentesque posuere neque. Cras at porttitor enim, et eleifend erat. Aliquam erat volutpat. Vivamus sapien ligula, varius sit amet faucibus at, maximus in ipsum. Nunc quis tempor justo.</p>
+</td
+</table>
+  </body>
+</html>
